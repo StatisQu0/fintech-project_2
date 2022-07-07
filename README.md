@@ -56,28 +56,28 @@ We feel like this is a smart choice for making our VGR BOT.  It is unsupervised 
 
     1. Matrix Factorization - This is basic matrix multiplication.  
         A. If you have User History and ratings, you can show it as one matrix.  
-![User_matrix]("../Todd's project folder/images/matrix_User.png")
+![User_matrix](./Todd's%20project%20folder/images/matrix_User.png)
 
         B. This User matrix is then multiplied by the feature matrix.  
 
-![Feature_matrix]("../Todd's project folder/images/Feature_matrix.png")
+![Feature_matrix](./Todd's%20project%20folder/images/Feature_matrix.png)
 
         C. The result is a matrix that defines User ratings and options for recommendation related to features.  
 
-![Resultant_matrix]("../Todd's project folder/images/result_matrix.png")
+![Resultant_matrix](./Todd's%20project%20folder/images/result_matrix.png)
 
 
 # Cleaning and Preparing the Data
 
 There is extraneous data and columns that need to be removed and the code below shows how that's done and the resultant dataframe.  
 
-![Data_cleaning]("../Todd's project folder/images/cleaning_data.png")
+![Data_cleaning](./Todd's%20project%20folder/images/cleaning_data.png)
 
 # Preparing the training and testing sets.  
 
 The program shows how the data is further prepared and configured into training and testing data sets and the resultant arrays, as shown below.
 
-![training_testing]("../Todd's project folder/images/training_testing.png")
+![training_testing](./Todd's%20project%20folder/images/training_testing.png)
 
 # Employ Tensorflow
 
@@ -87,7 +87,7 @@ From there, the training and testing are performed iteratively until a reasonabl
 
 At that point in the process, the recommendation engine is in place and ready to be deployed.  When the program is deployed, it iteratively checks each user's history of purchased software, hours played, genre, etc.  Given the user's data, the VGR BOT makes specific recommendations for specific users.  Sample output is show below.  
 
-![final_recommendations]("../Todd's project folder/images/final_recommendations.png")
+![final_recommendations](./Todd's%20project%20folder/images/final_recommendations.png)
 
 
 
@@ -108,7 +108,7 @@ Written in python and utiizing the following libraries:
     from collections import Counter
     from sklearn.metrics import roc_curve, auc, average_precision_score
     import tensorflow as tf
-    tf.__version__
+    
 
     
 numpy: https://numpy.org/
